@@ -4,9 +4,8 @@
 int main()
 {
     int a;
-    a + = 10;   // 程序会报错
-    //应该修改为如下：
-    a += 10;
+    int b = (a=3*5, a*4);
+    printf("%d", a);
     return 0;
 }
 
