@@ -2,7 +2,10 @@
 
 int main()
 {
-   long a = 100;
-   printf("%ld", a);
+   int a = 3, b = 9, c;
+   c = b/++a;
+   printf("%d\n", c);
+   ''
 }
+
 
