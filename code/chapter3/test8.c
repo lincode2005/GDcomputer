@@ -2,8 +2,7 @@
 
 int main()
 {
-   printf("%i", 10);
-   
+    printf("%o", 20);
+    return 0;
 }
-
 
