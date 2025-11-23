@@ -1,9 +1,16 @@
 #include <stdio.h>
 
+int ff(int n)
+{
+   
+}
 int main()
 {
-   printf("%i", 10);
-   
+   int cc;
+   for(cc=1; cc<4; cc++)
+      fun();
+   printf("\n");
+   return 0;  
 }
 
 
