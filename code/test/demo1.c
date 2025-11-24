@@ -1,16 +1,13 @@
 #include <stdio.h>
 
-int ff(int n)
-{
-   
-}
+
 int main()
 {
-   int cc;
-   for(cc=1; cc<4; cc++)
-      fun();
-   printf("\n");
-   return 0;  
+   float a;
+   scanf("%3f", &a);  // 非法的输入方式
+   printf("%f", a);
+   return 0;
 }
+
 
 
