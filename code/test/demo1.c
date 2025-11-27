@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    float d, f;
-    int i, k;
-    i=f=k=f=25/3;
-    printf("%3d%3d%5.2f%5.2f\n", i, k, f, d);
+    int a, b, temp;
+    scanf("%d%d", &a, &b);
+    printf("修改前: a=%d, b=%d\n", a, b);
+    temp = a; a = b; b = temp;
+    printf("修改后: a=%d, b=%d", a, b);
     return 0;
 }
 

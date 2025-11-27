@@ -12,3 +12,4 @@ int main()
     printf("%f\n", a+b);
     return 0;
 }
+
