@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    int x=1, y=0, z;
+    z = x<y?x++:y<x?20:10;
+    printf("%d", z);
+    return 0;
+}
+
