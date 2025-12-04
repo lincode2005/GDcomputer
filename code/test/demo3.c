@@ -2,11 +2,9 @@
 
 int main()
 {
-    int i=1;
-    for(;i<10;)
+    if("")
     {
-        printf("%d ", i);
-        i++;
+        printf("hello");
     }
     return 0;
 }   
