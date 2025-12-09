@@ -1,14 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int i;
-    switch(i)
-    {
-        case 9: i++;
-        case 10: i++;
-        case 11: i++;
-        default: i++;
-    }
+    unsigned char a = -1;
+    printf("%u", a);
     return 0;
 }
 
