@@ -1,24 +1,24 @@
 #include <stdio.h>
 
-int main()
-{
-    int a[4] = {9,7,5,8};
-    int i, j, temp;
-    for(i=0; i<4-1; i++)
-    {
-        for(j=0; j<4-i; j++)
-        {
-            if(a[j] > a[j+1])
-            {
-                temp = a[j];
-                a[j] = a[j+1];
-                a[j+1] = temp;
+int main() {
+    int a[4] = {9, 7, 5, 8};
+
+    // 冒泡排序
+    for (int i = 0; i < 4 - 1; i++) {
+        for (int j = 0; j < 4 - i - 1; j++) {
+            if (a[j] > a[j + 1]) {
+                // 交换 a[j] 和 a[j + 1]
+                int temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
             }
         }
-            
-    } 
-    // 打印输出排序后的结果
-    for(i=0; i<4; i++)
+    }
+    printf("排序后的数组: ");
+    for (int i = 0; i < 4; i++) {
         printf("%d ", a[i]);
+    }
+    printf("\n");
+
     return 0;
 }
