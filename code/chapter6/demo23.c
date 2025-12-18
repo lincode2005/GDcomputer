@@ -2,7 +2,9 @@
 
 int main()
 {
-    char s1[] = "sdsd";
+    char c[10];
+    gets(c);
+    puts(c);
     return 0;
-}   
+}
 
