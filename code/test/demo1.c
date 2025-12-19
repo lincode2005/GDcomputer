@@ -1,16 +1,11 @@
 #include <stdio.h>
+
 int main()
 {
-    int i, j, a[4];
+    char c[10];
+    c[0] = ' ';
+    scanf("%s", &c[1]);
+    printf("%s", c);
 
-    for(i=0; i<4; i++)
-        for(j=0; i<4-i;j++)
-            if(a[j]>a[j+1])
-                // ½»»»´úÂë;
     return 0;
 }
-
-
-
-
-
