@@ -2,10 +2,10 @@
 
 int main()
 {
-    char c[10];
-    c[0] = ' ';
-    scanf("%s", &c[1]);
-    printf("%s", c);
+    int a=1, b=1, c=1, t;
+    t = ++a || ++b && ++c;
+    printf("%d\n", t);
+    printf("%d %d %d\n", a, b, c);
 
     return 0;
 }
