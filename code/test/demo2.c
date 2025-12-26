@@ -2,14 +2,9 @@
 
 int main()
 {   
-    int x, y;
-    scanf("%d", &x);
-    // if(x>0) y=1; else y=-1;
-    //Ïàµ±ÓÚ
-    if(x>0)
-        y = 1;
-    else
-        y = -1;
+    int a[] = {1,2,3,4,5,6,7,8,9,10,11,12};
+    char c = 'a', d, g;
+    printf("%d", a[g-c]);
     return 0;
 }
 

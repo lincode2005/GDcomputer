@@ -1,13 +1,12 @@
 #include <stdio.h>
+#include <string.h>
 
-
-int f(int x, int y)
-{
-    return x;
-}
 int main()
 {   
-    int a = 100;
-    printf("%d", f(f(a++, a++), f(a++, a++)));
+    char a[] = "china";
+    char b[] = {'c', 'h', 'i', 'n', 'a'};
+    printf("%zu\n", strlen(a));
+    printf("%zu\n", strlen(b));
     return 0;
 }
+
