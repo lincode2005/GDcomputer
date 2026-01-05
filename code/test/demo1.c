@@ -3,10 +3,9 @@
 
 int main()
 {   
-    char a[] = "china";
-    char b[] = {'c', 'h', 'i', 'n', 'a'};
-    printf("%zu\n", strlen(a));
-    printf("%zu\n", strlen(b));
+    // char *s;
+    // s = {"abcd"};
+    char *s = {"abcd"};
     return 0;
 }
 
