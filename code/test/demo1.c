@@ -3,9 +3,9 @@
 
 int main()
 {   
-    // char *s;
-    // s = {"abcd"};
-    char *s = {"abcd"};
+    char name[10];
+    strcpy(name, "zhangsan");
+    printf("%s", name);
     return 0;
 }
 
