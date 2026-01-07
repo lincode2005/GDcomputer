@@ -3,9 +3,13 @@
 
 int main()
 {   
-    // char *s;
-    // s = {"abcd"};
-    char *s = {"abcd"};
+    struct Student
+    {
+        int num;
+        char name[20];
+        float score;
+    };
+    
     return 0;
 }
 
