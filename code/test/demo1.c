@@ -10,9 +10,8 @@ struct Student{
 
 int main()
 {   
-    char s[10];
-    strcpy(s, "abcd");
-    puts(s);
+    struct Student stu1, stu2, stu3;
+    
     return 0;
 }
 
