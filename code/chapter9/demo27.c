@@ -8,7 +8,7 @@ struct Student {
 };
 
 int main() {
-    struct Student *head, *p;
+    struct Student *head, *p, *pp;
     
     // 创建第一个节点
     head = (struct Student *)malloc(LEN);
@@ -31,10 +31,10 @@ int main() {
     p->next = NULL;  // 最后一个节点的next设为NULL
     
     // 遍历链表并输出
-    p = head;
-    while (p != NULL) {
-        printf("%d\n", p->num);
-        p = p->next;
+    pp = head;
+    while (pp != NULL) {
+        printf("%d\n", pp->num);
+        pp = pp->next;
     }
     
     // 释放内存（可选，程序结束时会自动释放）
